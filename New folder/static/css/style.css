@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body::-webkit-scrollbar {
+    width: 100x;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #0F172A;        /* цвет зоны отслеживания */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(30, 41, 59, 0.4);    /* цвет бегунка */
+    border-radius: 100;       /* округлось бегунка */
+    border: none;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #0F172A;
+    color: #F8FAFC;
+}
+
+h1,  p {
+    margin: 220;
+}
+
+
+img {
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.main-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.main__title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.ul.main-nav__list.main-list{
+    font-size: 100px;
+    text-align: top;
+    margin-bottom: 130;
+}
+.h2{
+    font-size: 100px;
+    text-align: right;
+    margin-bottom: 130;
+}
+.html-html-body-main-h2>{
+    font-size: 100px;
+    text-align: right;
+    margin-bottom: 130;
+}
+.templates-index.html-html-h1{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    margin-bottom: 130;
+}
+.Python_project_3.png{
+    font-size: 300px;
+    text-align: right;
+    margin-bottom: 300; 
+}
+
+#contact-header {
+    margin-bottom:60px;
+}
+
+.Feedback{
+    height: 0;
+    width: 730px;
+    display: table-cell;
+    text-align: right;
+    line-height: 200px;
+}
+
+
+.form-title{
+    height: 256x;
+    width: 700px;
+    display: table-cell;
+    text-align: left;
+    line-height: 30px;
+
+}
+
+.form-subtitle{
+    width: 700px;
+    display: table-cell;
+    text-align: left;
+    line-height: 30px;
+}
+
+#send_button{
+    width: 800px;
+    display: table-cell;
+    text-align: left;
+    line-height: 30px;
+}
+
+.title{
+    height: 30;
+    width: 800px;
+    display: table-cell;
+    text-align: left;
+    line-height: 50px;
+}
+
+
+.contact-title{
+    margin-bottom:60px;
+}
+.contact-subtitle{
+    margin-bottom:60px;
+}
+    
+
+
